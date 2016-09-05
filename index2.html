@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="public/css/uikit.min.css">
+        <link rel="stylesheet" href="public/css/components/search.min.css">
+        <link rel="stylesheet" href="public/css/components/accordion.min.css">
+        <link rel="stylesheet" href="public/css/components/form-select.css">
+        <link rel="stylesheet" href="app.css">
+    </head>
+    <body>
+        <header class="uk-flex">
+            <div class="logo uk-flex-item-none uk-text-center"><img src="img/logo-1.png" alt=""></div>
+
+                <nav class="uk-navbar top-menu uk-flex uk-flex-middle uk-flex-right uk-flex-item-1">
+
+
+                    <div class="uk-navbar-content uk-hidden-small">
+                        <form class="uk-search" data-uk-search>
+                            <input class="uk-search-field" type="search" placeholder="">
+                            <div class="uk-form-select" data-uk-form-select>
+                                <span></span>
+                                <select>
+                                    <option value="site">Поиск по сайту</option>
+                                    <option value="page">Поиск по странице</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-parent" data-uk-dropdown="{justify:'.top-menu'}">
+                            <a class="login" href="">
+                                <i class="uk-icon-home"></i>
+                                Вход
+                            </a>
+                            <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-top">
+                                <div class="uk-accordion profile-accordion" data-uk-accordion>
+
+                                    <h3 class="uk-accordion-title">Профиль</h3>
+                                    <div class="uk-accordion-content">
+                                        <div class="profile-block">
+                                            <div class="avatar-profile">
+                                                <div class="img-avatar" style="background: url(img/icon_bank_r.png)"> </div>
+                                            </div>
+                                            <h3 class="title">
+                                                Иван Иванович
+                                            </h3>
+                                            <p class="post-title">
+                                                Администратор
+                                            </p>
+                                            <div class="up-block">
+                                                <ul>
+                                                    <li><a href="#"><i class="uk-icon uk-icon-edit"></i>Добавить запись</a></li>
+                                                    <li><a href="#"><i class="uk-icon uk-icon-gears"></i>Настройки</a></li>
+                                                    <li><a href="#"><i class="uk-icon uk-icon-sign-out"></i>Выйти</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="uk-nav uk-nav-navbar">
+                                    <li><a href="#">Item</a></li>
+                                    <li><a href="#">Another item</a></li>
+                                    <li class="uk-nav-header">Header</li>
+                                    <li><a href="#">Item</a></li>
+                                    <li><a href="#">Another item</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="#">Separated item</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="login" href="">
+                            <i class="uk-icon-home"></i>
+                            Регистрация
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+        </header>
+        <main>
+            <div class="uk-grid content">
+
+                <div class="uk-width-small-1-1 uk-width-medium-2-3 uk-width-large-2-3 grid">
+                    <div class="container">
+                        <div class="title">Новости</div>
+                        <div class="body">
+
+                            <div class="item">
+                                <time class="uk-icon-calendar">
+                                    31/08/2016
+                                </time>
+                                <a href="">ЕЭК подготовила новый Порядок разработки технических регламентов Евразийского
+                                    экономического союза
+                                </a>
+                            </div>
+                            <div class="item">
+                                <time class="uk-icon-calendar">
+                                    31/08/2016
+                                </time>
+                                <a href="">Установлены ставки сбора за выдачу разрешения на привлечение иностранной
+                                    рабочей силы</a>
+                            </div>
+                            <div class="item">
+                                <time class="uk-icon-calendar">
+                                    31/08/2016
+                                </time>
+                                <a href="">О свободной торговле между ЕЭС и Вьетнамом</a>
+                            </div>
+                            <div class="item">
+                                <time class="uk-icon-calendar">
+                                    29/08/2016
+                                </time>
+                                <a href="">Wipon – проверка подлинности алкогольной продукции.</a>
+                            </div>
+                        </div>
+                        <div class="footer">
+                            <div class="all_link">
+                                <div class="uk-icon-list">
+                                    <a href="http://tsnik.kz/announcement/"> Посмотреть все</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 grid">
+                    <div class="container">
+                        <div class="title">Новости</div>
+                        <div class="body">
+
+                            <div class="item">
+                                <time class="uk-icon-calendar">
+                                    31/08/2016
+                                </time>
+                                <a href="">ЕЭК подготовила новый Порядок разработки технических регламентов Евразийского
+                                    экономического союза
+                                </a>
+                            </div>
+                            <div class="item">
+                                <time class="uk-icon-calendar">
+                                    31/08/2016
+                                </time>
+                                <a href="">Установлены ставки сбора за выдачу разрешения на привлечение иностранной
+                                    рабочей силы</a>
+                            </div>
+                            <div class="item">
+                                <time class="uk-icon-calendar">
+                                    31/08/2016
+                                </time>
+                                <a href="">О свободной торговле между ЕЭС и Вьетнамом</a>
+                            </div>
+                            <div class="item">
+                                <time class="uk-icon-calendar">
+                                    29/08/2016
+                                </time>
+                                <a href="">Wipon – проверка подлинности алкогольной продукции.</a>
+                            </div>
+                        </div>
+                        <div class="footer">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-small-1-1 uk-width-medium-2-3 uk-width-large-2-3 grid">
+                    <div class="container">
+                        <div class="title">Новости</div>
+                        <div class="body">
+
+                            <div class="item">
+                                <time class="uk-icon-calendar">
+                                    31/08/2016
+                                </time>
+                                <a href="">ЕЭК подготовила новый Порядок разработки технических регламентов Евразийского
+                                    экономического союза
+                                </a>
+                            </div>
+                            <div class="item">
+                                <time class="uk-icon-calendar">
+                                    31/08/2016
+                                </time>
+                                <a href="">Установлены ставки сбора за выдачу разрешения на привлечение иностранной
+                                    рабочей силы</a>
+                            </div>
+                            <div class="item">
+                                <time class="uk-icon-calendar">
+                                    31/08/2016
+                                </time>
+                                <a href="">О свободной торговле между ЕЭС и Вьетнамом</a>
+                            </div>
+                            <div class="item">
+                                <time class="uk-icon-calendar">
+                                    29/08/2016
+                                </time>
+                                <a href="">Wipon – проверка подлинности алкогольной продукции.</a>
+                            </div>
+                        </div>
+                        <div class="footer">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-small-1-1 uk-width-medium-9-10 uk-width-large-9-10 grid">
+                    <div class="container">
+                        <div class="title">Новости</div>
+                        <div class="body">
+
+                            <div class="item">
+                                <time class="uk-icon-calendar">
+                                    31/08/2016
+                                </time>
+                                <a href="">ЕЭК подготовила новый Порядок разработки технических регламентов Евразийского
+                                    экономического союза
+                                </a>
+                            </div>
+                            <div class="item">
+                                <time class="uk-icon-calendar">
+                                    31/08/2016
+                                </time>
+                                <a href="">Установлены ставки сбора за выдачу разрешения на привлечение иностранной
+                                    рабочей силы</a>
+                            </div>
+                            <div class="item">
+                                <time class="uk-icon-calendar">
+                                    31/08/2016
+                                </time>
+                                <a href="">О свободной торговле между ЕЭС и Вьетнамом</a>
+                            </div>
+                            <div class="item">
+                                <time class="uk-icon-calendar">
+                                    29/08/2016
+                                </time>
+                                <a href="">Wipon – проверка подлинности алкогольной продукции.</a>
+                            </div>
+                        </div>
+                        <div class="footer">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div style="height: 1024px;" class="uk-width-small-1-1 uk-width-medium-1-1 uk-width-large-1-4">
+                3
+            </div>
+            </div>
+        </main>
+        <aside>
+            <div class="uk-panel uk-panel-box">
+                <div class="show-time uk-margin-top uk-margin-bottom">
+                    <time style="color: white;" class="date uk-icon-calendar">
+                        <span>20/10/2016</span>
+                    </time>
+                    <br>
+                    <time style="color: white;" class="time uk-icon-clock-o">
+                        <span>20:20:20</span>
+                    </time>
+                </div>
+                <h3 class="uk-panel-title">Меню</h3>
+                <ul class="left-menu uk-nav uk-nav-side  uk-nav-parent-icon" data-uk-nav="{multiple:true}">
+                    <li class="uk-parent" data-uk-dropdown="{mode:'click', pos:'right-top',justify:'.uk-panel'}">
+                        <a class="login">
+                            <i class="uk-icon-bank"></i>
+                            <span>Разделы</span>
+                        </a>
+                        <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-top">
+                            <div class="menu-container">
+                                <ul class="uk-nav uk-nav-side  uk-nav-parent-icon" data-uk-nav="{multiple:true}">
+                                    <li><a href="#"><i class="uk-icon uk-icon-user"></i>Профиль</a></li>
+                                    <li class="uk-parent">
+                                        <a href="#"><i class="uk-icon uk-icon-book"></i>Страницы</a>
+                                        <ul class="uk-nav-sub">
+                                            <li><a href="#"><i class="uk-icon uk-icon-list"></i>Список страниц</a></li>
+                                            <li><a href="#"><i class="uk-icon uk-icon-plus"></i>Добавить</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="uk-parent">
+                                        <a href="#"><i class="uk-icon uk-icon-pencil-square-o"></i>Посты</a>
+                                        <ul class="uk-nav-sub">
+                                            <li><a href="#"><i class="uk-icon uk-icon-list"></i>Список постов</a></li>
+                                            <li><a href="#"><i class="uk-icon uk-icon-plus"></i>Добавить</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"><i class="uk-icon uk-icon-image "></i>Галерея</a></li>
+                                    <li><a href="#"><i class="uk-icon uk-icon-users "></i>Пользователи</a></li>
+                                    <li><a href="#"><i class="uk-icon uk-icon-cog "></i>Настройки</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="uk-parent" data-uk-dropdown="{mode:'click', pos:'right-top',justify:'.uk-panel'}">
+                        <a class="login">
+                            <i class="uk-icon-book"></i>
+                            <span>Справочник</span>
+                        </a>
+                        <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-top">
+                            <div class="menu-container">
+                                <div class="uk-accordion profile-accordion" data-uk-accordion>
+
+                                    <h3 class="uk-accordion-title">Профиль</h3>
+                                    <div class="uk-accordion-content">
+                                        <div class="profile-block">
+                                            <div class="avatar-profile">
+                                                <div class="img-avatar"
+                                                     style="background: url(img/icon_bank_r.png)"></div>
+                                            </div>
+                                            <h3 class="title">
+                                                Иван Иванович
+                                            </h3>
+                                            <p class="post-title">
+                                                Администратор
+                                            </p>
+                                            <div class="up-block">
+                                                <ul>
+                                                    <li><a href="#"><i class="uk-icon uk-icon-edit"></i>Добавить запись</a>
+                                                    </li>
+                                                    <li><a href="#"><i class="uk-icon uk-icon-gears"></i>Настройки</a>
+                                                    </li>
+                                                    <li><a href="#"><i class="uk-icon uk-icon-sign-out"></i>Выйти</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="uk-nav uk-nav-navbar">
+                                    <li><a href="#">Item</a></li>
+                                    <li><a href="#">Another item</a></li>
+                                    <li class="uk-nav-header">Header</li>
+                                    <li><a href="#">Item</a></li>
+                                    <li><a href="#">Another item</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="#">Separated item</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uk-icon-download"></i><span>СОНО</span></a>
+                    </li>
+                    <li class="uk-parent" data-uk-dropdown="{mode:'click', pos:'right-top',justify:'.uk-panel'}">
+                        <a class="login">
+                            <i class="uk-icon-balance-scale"></i>
+                            <span>Кодекс</span>
+                        </a>
+                        <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-top">
+                            <div class="menu-container" >
+                                <div style=" height: 1024px; background: #00a8e6">
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a><i class="uk-icon-question-circle"></i><span>Задать вопрос</span></a></li>
+                    <li><a><i class="uk-icon-lightbulb-o"></i><span>Тест знаний</span></a></li>
+                    <li class="uk-parent" data-uk-dropdown="{mode:'click', pos:'right-top',justify:'header'}">
+                        <a class="login">
+                            <i class="uk-icon-balance-scale"></i>
+                            <span>НПА</span>
+                        </a>
+                        <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-top">
+                            <div class="uk-accordion profile-accordion" data-uk-accordion>
+
+                                <h3 class="uk-accordion-title">Профиль</h3>
+                                <div class="uk-accordion-content">
+                                    <div class="profile-block">
+                                        <div class="avatar-profile">
+                                            <div class="img-avatar" style="background: url(img/icon_bank_r.png)"> </div>
+                                        </div>
+                                        <h3 class="title">
+                                            Иван Иванович
+                                        </h3>
+                                        <p class="post-title">
+                                            Администратор
+                                        </p>
+                                        <div class="up-block">
+                                            <ul>
+                                                <li><a href="#"><i class="uk-icon uk-icon-edit"></i>Добавить запись</a></li>
+                                                <li><a href="#"><i class="uk-icon uk-icon-gears"></i>Настройки</a></li>
+                                                <li><a href="#"><i class="uk-icon uk-icon-sign-out"></i>Выйти</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="uk-nav uk-nav-navbar">
+                                <li><a href="#">Item</a></li>
+                                <li><a href="#">Another item</a></li>
+                                <li class="uk-nav-header">Header</li>
+                                <li><a href="#">Item</a></li>
+                                <li><a href="#">Another item</a></li>
+                                <li class="uk-nav-divider"></li>
+                                <li><a href="#">Separated item</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <footer>
+
+        </footer>
+        <script src="/public/js/jquery-3.1.0.min.js"></script>
+        <script src="public/js/uikit.js"></script>
+        <script src="public/js/components/search.js"></script>
+        <script src="public/js/components/form-select.js"></script>
+        <script>
+            $(document).ready(function () {
+                var showDate=function () {
+                    var now = new Date();
+                    var year = now.getFullYear();
+                    var mounth = now.getMonth();
+                    var day = now.getDate();
+                    if (year<10){
+                        year='0'+year;
+                    }
+                    if (mounth<10){
+                        mounth='0'+mounth;
+                    }
+                    if (day<10){
+                        day='0'+day;
+                    }
+                    var date=day+'/'+mounth+'/'+year;
+                    $('time.date span').html(date);
+                };
+                var showTime = function () {
+                    var now = new Date();
+                    var hours = now.getHours();
+                    var minute = now.getMinutes();
+                    var second = now.getSeconds();
+                    if (hours<10){
+                        hours='0'+hours;
+                    }
+                    if (minute<10){
+                        minute='0'+minute;
+                    }
+                    if (second<10){
+                        second='0'+second;
+                    }
+                    var date=hours+':'+minute+':'+second;
+                    $('time.time span').html(date);
+                };
+                showDate();
+                showTime();
+                setInterval(showDate,600000);
+                setInterval(showTime,1000);
+            });
+        </script>
+    </body>
+</html>
